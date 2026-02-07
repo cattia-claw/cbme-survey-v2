@@ -1,0 +1,12 @@
+{
+  "$schema": "https://schema.zeabur.app/zeabur.json",
+  "build": {
+    "type": "node"
+  },
+  "output": {
+    "type": "node"
+  },
+  "start": {
+    "command": "npm run build && npm run start"
+  }
+}
